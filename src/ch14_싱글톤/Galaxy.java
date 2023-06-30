@@ -1,4 +1,4 @@
-package cj14_싱글톤;
+package ch14_싱글톤;
 
 public class Galaxy {
 
