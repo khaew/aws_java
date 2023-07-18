@@ -1,5 +1,6 @@
 package ch18_빌더;
 
+import ch18_빌더.KoreaUser.KoreaUserBuilder;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -34,42 +35,36 @@ public class KoreaUser {
 		public KoreaUser build() {
 			return new KoreaUser(userId, username, password, name, email);
 		}
-		
-		
 		public KoreaUserBuilder userId(int userId) {
 			this.userId = userId;
 			return this;
 		}
-		
+
 		public KoreaUserBuilder username(String username) {
 			this.username = username;
 			return this;
 		}
-		
+
 		public KoreaUserBuilder password(String password) {
 			this.password = password;
 			return this;
 		}
-		
+
 		public KoreaUserBuilder name(String name) {
 			this.name = name;
 			return this;
 		}
-		
+
 		public KoreaUserBuilder email(String email) {
 			this.email = email;
 			return this;
 		}
-		
-		
-		
+
+
+
 
 		}
 
-	}
-
-
-
-	
+		}
 
 

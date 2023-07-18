@@ -13,6 +13,7 @@ public class Array01 {
 			
 			int in = 0;
 			int index3 = 3;
+			
 		System.out.println(numbers[in]);
 		System.out.println(numbers[index3]);
 		

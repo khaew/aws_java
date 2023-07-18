@@ -17,7 +17,8 @@ public class SmartDeviceMain {
 		pad.connectedWiFi();
 		
 		
-		
+		//extends-일반 클래스,abstract 클래스 상속
+		//implement는 interface 상속
 	}
 
 }

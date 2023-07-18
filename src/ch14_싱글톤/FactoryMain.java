@@ -5,6 +5,7 @@ import java.util.Date;
 public class FactoryMain {
 
 	public static void main(String[] args) {
+		
 		Samsung samsung = Samsung.getInstance();    //기존 public에서 private로 변경.(new Samsung >> Samsung.getInstance)
 		System.out.println(Samsung.getCompanyName());
 		

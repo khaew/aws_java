@@ -1,7 +1,9 @@
 package ch13_스태틱;
 
 public class Iphone {
+	
 	private static int autoInclement = 1;
+	//autoinclement > 자동증가
 	
 	private int serialNumber = 20230600;
 	private String model;

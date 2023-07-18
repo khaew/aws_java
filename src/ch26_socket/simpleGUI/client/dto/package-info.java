@@ -1,0 +1,1 @@
+package ch26_socket.simpleGUI.client.dto;

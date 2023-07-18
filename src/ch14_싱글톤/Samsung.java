@@ -30,7 +30,7 @@ public class Samsung {
 	}
 
 	public int getAutoIncrementSerialNumber() {
-		// TODO Auto-generated method stub
+	
 		return 0;
 	}
 	
