@@ -1,42 +1,55 @@
-*{
+* {
   box-sizing: border-box;
   font-size: 14px;
-  color: #333;
-}
-.container{
-  position: relative;
-  margin: 100px auto;
-  border: 1px solid#2b669636;
-  border-radius:  4px;
-  padding : 10px;
-  width: 500px;
-  height: 700px;
-  background-color: #ffffff;
-  overflow: hidden;  /*sidebar 숨김*/
-  
+  color:#172f52;
 }
 
-.btn{
-  border: 1px solid #dbdbdb;
+.container {
+  position: relative;
+  margin: 100px auto;
+  border: 1px solid #172f5246;
   border-radius: 4px;
-  padding : 5px 10px;
-  background-color : white;
+  padding: 10px;
+  width: 500px;
+  height: 700px;
+  background-color: white;
+  overflow: hidden;
+}
+
+.btn {
+  border: 1px solid #172f5246;
+  border-radius: 4px;
+  padding: 5px 10px;
+  background-color: white;
   font-weight: 600;
   cursor: pointer;
 }
 
-/* 버튼 눌렀을때 색변경 */
-.btn:active{   
-  background-color:  #eee;
+.btn:active {
+  background-color:  #172f52a1;
 }
 
-.main-container{
+.main-container {
   padding: 20px;
   width: 100%;
   height: 100%;
 }
 
-.invisible{
+.invisible {
   display: none !important;
 }
 
+.text-input {
+  outline: none;
+  border: 1px solid  #172f5246;
+  border-radius: 4px;
+  padding: 5px 20px;
+}
+
+.text-input:focus {
+  outline: 2px solid #172f5246;
+}
+
+.w-f {
+  width: 100%;
+}
