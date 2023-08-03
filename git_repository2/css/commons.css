@@ -1,0 +1,49 @@
+.btn{
+  border: 1px solid #dbdbdb;
+  border-radius: 6px;
+  padding : 5px 16px;
+  background-color: #f6f8fa;
+  font-weight: 500;
+  cursor: pointer;
+
+}
+
+
+
+.btn-s-left{
+  padding : 3px 12px;
+  font-size : 12px;
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+
+
+.btn-s-right{
+  padding : 3px 12px;
+  font-size : 12px;
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+
+}
+.btn-success{
+  background-color: #1a7f37;
+  color : white;
+
+}
+.btn-success * {
+  color : white;
+}
+
+.text-input{
+  outline: none;
+ border:  1px solid #dbdbdb;
+ border-radius: 6px;
+ padding : 5px 12px;
+}
+.text-input:focus{    /* 클릭 시 테두리 두꺼워짐*/
+  outline : 2px solid #0969da;
+}
+
+.wf{
+  width: 100%;
+}

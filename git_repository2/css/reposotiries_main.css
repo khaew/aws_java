@@ -1,0 +1,162 @@
+.app-main-container{
+  display: flex;  /*컬럼 높이가 자동으로 맞아짐*/
+  justify-content: space-between; /*아이템 사이의 균일한 간격 + 양끝을 붙임*/
+    /*space-between=0,2,2,0 , space-arount=1,2,2,1, space-evenly=2,2,2,2*/
+  margin: 8px auto 0px;
+  padding :  0px 32px;
+  max-width: 1280px;
+}
+.main-left{
+  margin-top: 32px;
+  width: 296px;
+
+}
+.main-right{
+
+  
+}
+.profile-img-container{
+  position : relative; /* relative -  흐름을 따라감 */
+}
+
+.user-status-border{
+  position : absolute; /*좌표를 원하는대로 이동가능*/
+  right: 18px;
+  bottom: 18px;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  border : 1px solid #dbdbdb;
+  border-radius : 50%;
+  width: 38px;
+  height: 38px;
+  background-color: white;
+  cursor : pointer;
+}
+
+.img-border{
+  border: 2px solid #eee;
+  border-radius: 50%; /*50% 주면 원이 됨*/
+  width: 100%;
+  height: 296px;
+  overflow: hidden;
+}
+.img-border img{
+  width:100%
+}
+.profile-names-container{
+  padding : 16px 0px;
+}
+.profile-user-name{
+  font-size: 24px;
+  font-weight: 700;
+}
+.profile-user-username{
+  font-size: 20px;
+  font-weight: 300;
+  color : #555;
+}
+.edit-profile-buttons{
+  margin-bottom: 16px;
+  color:  #888;
+}
+.follow-link,
+.follow-font-b{
+  color : #888;
+  text-decoration: none;
+}
+
+
+.follow-container{
+  margin-bottom: 16px;
+}
+
+
+/* fasolid가 아닌것을 선택해라. */
+.follow-container *:not(.fa-solid){
+  font-weight: 300;
+}
+.follow-container.follow-font-b{
+  font-weight: 500;
+  color:#333;
+}
+
+.follow-container a :hover, /* 마우스가 올라가면 반응 hover */
+.follow-container a:hover *{
+  color:#0969da;
+/* follow,ing에 마우스 올리면 파란색으로 변함 */
+}
+
+.company-and-address-items{ /* 사진 밑 정보란 여백 */
+  position : relative;  
+  padding : 4px 0px 0px 24px;
+}
+.company-and-address-items i{  /* 사진 밑 정보란 여백 */
+  position : absolute;
+  /*  */
+  bottom :0;
+  left: 0;
+}
+.company-itmes-name{ /* 회사정보 글씨 굵게*/
+  font-weight: 700;
+  curser : pointer;
+}
+.company-itmes-name:hover{
+  text-decoration: underline;
+}
+.profile-etc-container{
+  margin-top: 16px;
+  border-top: 1px solid #dbdbdb;
+  padding-top : 16px;
+}
+.profile-etc-title{
+  margin-bottom: 8px;
+  font-size: 16px;
+  font-weight: 700;
+}
+.achievements-items{
+  display: flex;
+  flex-wrap: wrap;   /*쌓이다가 다음줄로 넘어감*/
+}
+.achievements-img{
+  border: 2px solid white;
+  border-radius: 50%;
+  width: 64px;
+  height: 64px;
+  overflow:  hidden;
+}
+.achievements-img img{
+  width: 100%;
+}
+.achievements-bottom{
+  margin-top:  8px;
+}
+.achievements-beta{
+  display: inline-block; /*옆으로정렬*/
+  border : 1px solid #1a7f37;
+  border-radius: 14px;
+  padding: 1.428px 8px;
+  color : #1a7f37;
+  font-weight : 300;
+}
+.send-feedback-link{
+  text-decoration : none;
+  font-weight: 300;;
+  color : #0969da;
+}
+.send-feedback-link:hover{
+  text-decoration: underline;
+}
+.organizations -items{
+  display: flex;
+  flex-wrap : wrap;
+}
+.organizations-image{
+  margin-right: 3px;
+  margin-bottom: 3px;
+  border: 1px solid #dbdbdb;
+  border-radius: 6px;
+  width:  34px;
+  height: 34px;
+  background-color: #eee;
+}

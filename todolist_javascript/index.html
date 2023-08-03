@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/common.css">
+  <link rel="stylesheet" href="./css/sidebar.css">
+  <link rel="stylesheet" href="./css/welcome.css">
+  <link rel="stylesheet" href="./css/todolist.css">
+
+
+
+</head>
+<body>
+  <div id = "root">
+    <div class = "container">
+      <aside class="sidebar">
+        <button class = "sidebar-toggle-button" onclick = "sidebarToggleButtonOnClickHandle()">▶</button>
+        <ul class = "sidebar-menu-list">
+          <h1 class = "sidebar-logo">오늘의 할일</h1>
+          <li class = "menu-items isMenuSelected">시작하기</li>
+          <li class = "menu-items">TO DO LIST</li>
+        
+        </ul>
+      </aside>
+      <main class = "main-container">
+        <div class = "welcome-page-container invisible">
+          <h1 class = "welcome-page-title">To do List</h1>
+          <button class = "write-link-button">Go to write</button>  
+        </div>
+          <div class = "todolist-page-container">
+            <header>
+                <div>
+                  <input type="text" >
+                </div>
+                <div>
+                  <button>추가</button>
+     
+                </div>
+            </header>
+            <main>
+              <ul>
+                <li></li>
+              </ul>
+            </main>
+          </div>
+      </main>
+    </div>
+  </div>
+  <script src = "./js/index.js"></script>
+  <script src = "./js/sidebar.js"></script>
+</body>
+</html>

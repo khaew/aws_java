@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .box1{
+      border-top: 2px solid gray;
+      border-left: 2px solid gray;
+      border-right: 2px solid black;
+      border-bottom: 2px solid black;
+      width: 100px;
+      height:  100px;
+      background-color:yellow;
+    }
+    .box1:active{
+      order-top: 2px solid black;
+      border-left: 2px solid black;
+      border-right: 2px solid  gray;
+      border-bottom: 2px solid gray;
+
+    }
+    .box2{
+      display: block;
+      width: 100px;
+      height:  100px;
+      background-color: red;
+    }
+  </style>
+</head>
+<body>
+
+  <div class = "box1"></div>     <!-- block 마진있음 -->
+  <div class = "box1"></div>
+  <div class = "box1"></div>
+  <button class = "box2"></button>   <!-- inline마진없음 -->
+  <button class = "box2"></button>
+  <button class = "box2"></button>
+</body>
+</html>
+</body>
+</html>
+</body>
+</html>

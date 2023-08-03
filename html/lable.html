@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    #chk1{
+      display: none;
+
+    }
+
+    #chk1 + lable{
+      width: 50px;
+      height: 50px;
+      border: 1px solid black;
+      border-radius: 50%;
+
+    }
+    #aaa{
+      width: 100px;
+      height:  100px;
+      border: 1px solid black;
+      border-radius: 50%;
+    }
+
+
+  </style>
+</head>
+
+<body>
+  <div>
+    <input type="checkbox"  id="chk1">
+    <label for="chk1"></label>
+  </div>
+
+  <div>
+      <lable for="username">아이디</label><input type = "text" id = "username">
+  </div>
+  <div>
+     <lable for="">비밀번호</label><input type = "password">
+  </div>
+  <div>
+    <span>아이디</span><input type="text">
+  </div>
+  <div>안녕</div>하세요    <!-- div 블록단위/ 속성 줄 시 통째로 영향을 받음. -->
+  <span>안녕</span>하세요 <!--  span : 글자단위 /속성 줄 시 끊긴 단위로 영향을 받음(안녕/하세요)-->
+  
+</body>
+</html>

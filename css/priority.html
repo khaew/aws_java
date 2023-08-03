@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    /* !important - 인라인 - ID - 클래스 - 타입 */
+    .c-button{   /* .~~  클래스선택자 */
+      color:yellow;
+    }
+   
+    .test-div button{     /* test-div 클래스명임. *//* .~~  클래스선택자 */
+      color:red ;
+    }
+
+    /* #btn{
+      color :  blue;
+    } */
+
+     /*캐스캐이딩에 의하면 아래부터 적용되어야 하지만 클래스가 우선순위라 노란색으로 적용됨. */
+     /* !important 우선순위 부여 */
+
+  </style>
+</head>
+<body>
+  <div class = "test-div">
+  <button id = "btn" class = "c-button c2-button">버튼</button>
+</div>
+
+<button>버튼2</button>
+
+</body>
+</html>
