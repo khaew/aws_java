@@ -8,6 +8,7 @@ bin
 .classpath
 .project
 .factorypath
+.metadata
 
 # [Intellij]
 # folder
